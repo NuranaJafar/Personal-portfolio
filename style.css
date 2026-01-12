@@ -321,3 +321,168 @@
         font-size: 16px;
     }
 }
+
+
+.featured{
+    width: 100%;
+    height: auto;
+}
+
+#h1{
+    width: 152px;
+    height: 60px;
+    margin-left: 148px;
+    margin-top: 15px;
+    color: rgba(33, 36, 61, 1);
+    font-family: "Heebo", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.featured-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fcard{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.fcard-img img{
+    width: 246px;
+    height: 180px;
+    margin-left: 146px;
+    margin-bottom: 50px;
+}
+
+.fcard-text h1{
+
+    color: rgba(33, 36, 61, 1);
+    font-family: "Heebo", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fcard-text p{
+    width: 594px;
+    height: 93px;
+    color: rgba(33, 36, 61, 1);
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.fcard-time{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+.fcard-time span{
+    width: 65px;
+    height: 25px;
+    border: none;
+    background-color: rgba(20, 40, 80, 1);
+    border-radius: 13px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.fcard-time h4{
+    color: rgba(134, 149, 164, 1);
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
+
+.icons{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 25px;
+    gap: 30px;
+}
+
+
+.footer-text h1{
+    font-family: "Heebo", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px){
+
+    /* SECTION */
+    .featured{
+        padding: 40px 20px;
+    }
+
+    /* BAŞLIQ */
+    #h1{
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* KARTLAR */
+    .featured-cards{
+        gap: 40px;
+    }
+
+    .fcard{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .fcard-img img{
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .fcard-text h1{
+        font-size: 24px;
+    }
+
+    .fcard-text p{
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .fcard-time{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    /* FOOTER */
+    .icons{
+        margin-top: 80px;
+        font-size: 22px;
+    }
+
+    .footer-text h1{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+}
